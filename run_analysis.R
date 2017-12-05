@@ -1,3 +1,4 @@
+library(plyr);
 # R code for Getting-and-Cleaning-Data-Course-Project
 
 # Download the data file and keep the file in the project_data folder.
