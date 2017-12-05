@@ -9,10 +9,10 @@ You should create one R script called run_analysis.R that does the following.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Steps to work on this project
-
-1. Download the data file and keep it into a folder on your local drive. You'll have a ```UCI HAR Dataset``` folder.
-2. Keep the  ```run_analysis.R``` file in the parent folder of ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in RStudio.
-3. Run the  ```script file("run_analysis.R")```, then it will create a new file ```tidy_data.txt``` in your working directory.
+1. Set your working directory using ```setwd()``` function in RStudio.
+2. Download the data file and keep it into a folder(project_data) in your working directory. You'll have a ```UCI HAR Dataset``` folder in your ```project_data``` folder.
+3. Keep the  ```run_analysis.R``` file in your working directory.
+4. Run the  ```script file("run_analysis.R")```, then it will create a new file ```tidy_data.txt``` in your working directory.
 
 ## Dependencies
 
