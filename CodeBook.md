@@ -25,11 +25,11 @@ The dataset includes the following files:
 
 - 'activity_labels.txt': Links the class labels with their activity name.
 
-- 'train/X_train.txt': Training set.
+- 'train/X_train.txt': Training data set.
 
 - 'train/y_train.txt': Training labels.
 
-- 'test/X_test.txt': Test set.
+- 'test/X_test.txt': Test data set.
 
 - 'test/y_test.txt': Test labels.
 
@@ -46,7 +46,7 @@ The following files are available for the train and test data. Their description
 
 ## Transformation details
 
-There are 5 parts:
+There are 5 parts for preparing the the tidy_data set:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
